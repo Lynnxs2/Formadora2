@@ -1,0 +1,80 @@
+<h1 class="title">Angular Calculadora</h1>
+<div class="container">
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <form>
+                <input type="text" value="{{ resultado }}" [(ngModel)] = "resultado" class="form-control" id="resultado" readonly="readonly" />
+
+                <div class="form-group">
+                    
+                    
+                </div>
+            </form>
+        </div>
+    </div> 
+
+    <div class="row mt-3">
+        <div class="col-3 d-grid">
+            <button type="button" (click) = "clicar( '0' )" class="btn btn-primary btn-lg">0</button>
+        </div>
+        <div class="col-3 d-grid">
+            <button type="button" (click) = "clicar( '1')" class="btn btn-primary btn-lg">1</button>
+        </div>
+        <div class="col-3 d-grid">
+            <button type="button" (click) = "clicar( '2' )" class="btn btn-primary btn-lg">2</button>
+            </div>
+            <div class="col-3 d-grid">
+                <button type="button" (click) = "clicar( '*' )" class="btn btn-secondary btn-lg">*</button>
+            </div>
+
+        
+        </div>
+        <div class="row mt-3">
+            <div class="col-3 d-grid">
+                <button type="button" (click) = "clicar( '3' )" class="btn btn-primary btn-lg">3</button>
+            </div>
+            <div class="col-3 d-grid">
+                <button type="button" (click) = "clicar( '4' )" class="btn btn-primary btn-lg">4</button>
+            </div>
+            <div class="col-3 d-grid">
+                <button type="button" (click) = "clicar( '5' )" class="btn btn-primary btn-lg">5</button>
+                </div>
+                <div class="col-3 d-grid">
+                    <button type="button"(click) = "clicar( '%' )" class="btn btn-secondary btn-lg">%</button>
+                </div>
+    
+            
+            </div>
+            <div class="row mt-3">
+                <div class="col-3 d-grid">
+                    <button type="button" (click) = "clicar( '6' )" class="btn btn-primary btn-lg">6</button>
+                </div>
+                <div class="col-3 d-grid">
+                    <button type="button" (click) = "clicar( '7' )" class="btn btn-primary btn-lg">7</button>
+                </div>
+                <div class="col-3 d-grid">
+                    <button type="button" (click) = "clicar( '8' )" class="btn btn-primary btn-lg">8</button>
+                    </div>
+                    <div class="col-3 d-grid">
+                        <button type="button" (click) = "clicar( '-' )" class="btn btn-secondary btn-lg">-</button>
+                    </div>
+        
+                
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3 d-grid">
+                        <button type="button" (click) = "clicar( '9' )" class="btn btn-primary btn-lg">9</button>
+                    </div>
+                    <div class="col-3 d-grid">
+                        <button type="button" (click) = "clicar( 'CE' )" class="btn btn-secondary btn-lg">CE</button>
+                    </div>
+                    <div class="col-3 d-grid">
+                        <button type="button" (click) = "clicar( '=' )" class="btn btn-danger btn-lg">=</button>
+                        </div>
+                        <div class="col-3 d-grid">
+                            <button type="button" (click) = "clicar( '+' )" class="btn btn-secondary btn-lg">+</button>
+                        </div>
+            
+                    
+                    </div>
+</div>
